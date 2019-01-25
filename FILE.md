@@ -1,3 +1,3 @@
-
+LINE 1
 
 SECOND FILE

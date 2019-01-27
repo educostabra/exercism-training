@@ -7,7 +7,7 @@
 # BlueJ files
 *.ctxt
 
-# Mobile Tools for Java (J2ME)
+# Mobile Tools fov Java (J2ME)
 .mtj.tmp/
 
 # Package Files #
@@ -24,3 +24,8 @@ hs_err_pid*
 
 #Vim temp
 *~
+
+.idea/
+.gradle/
+.exercism/
+out/

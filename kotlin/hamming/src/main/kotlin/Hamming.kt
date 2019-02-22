@@ -5,7 +5,7 @@ object Hamming {
      * Solution Using String.zip to create a Pair of char.
      */
     fun compute(dna1: String, dna2: String) = if (dna1.length == dna2.length)
-        dna1.zip(dna2).count { pair -> pair.first != pair.second }
+        dna1.zip(dna2).count { (first,second)  -> first != second }
     else
         throw IllegalArgumentException("left and right strands must be of equal length.")
 
